@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Testimonials</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <nav>
+          <h1 class="logo">Christabels Consultancy</h1>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <main>
+      <section class="testimonial-section">
+        <h1>What Our Clients Say</h1>
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <p>
+              “Thanks to Christabels Consultancy, I secured a teaching job in
+              Australia. Their support was exceptional!”
+            </p>
+            <h3>Angie</h3>
+            <span>Teaching Job · Australia</span>
+          </div>
+          <!-- Add more testimonials here -->
+        </div>
+      </section>
+
+      <section class="submit-review">
+        <h2>Share Your Success Story</h2>
+        <form action="#" method="post">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="type">Opportunity Type:</label>
+          <select id="type" name="type" required>
+            <option value="">-- Select --</option>
+            <option value="University Admission">University Admission</option>
+            <option value="Teaching Job">Teaching Job</option>
+            <option value="Other Job">Other Job</option>
+          </select>
+
+          <label for="testimonial">Your Testimonial:</label>
+          <textarea
+            id="testimonial"
+            name="testimonial"
+            rows="5"
+            required
+          ></textarea>
+
+          <button type="submit">Submit Review</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2025 Christabels Consultancy. All rights reserved.</p>
+          <p>Contact us: <strong>(+254) 712 345678</strong> | <strong>info@christabelsconsultancy.com</strong></p>
+          <p>Follow us on 
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">LinkedIn</a>
+          </p>
+        </div>
+      </footer>
+  </body>
+</html>
