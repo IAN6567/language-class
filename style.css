@@ -22,6 +22,7 @@ nav {
   align-items: center;
   padding: 15px 30px;
   flex-wrap: wrap;
+  
 }
 
 .logo {
@@ -471,4 +472,5 @@ footer {
   .service-card img {
     width: 60px;
     margin-bottom: 15px;
-    filter}
+    filter: none;
+  }
